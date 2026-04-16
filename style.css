@@ -1,0 +1,172 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body { 
+    font-family: sans-serif; 
+    background: #fdf6ff; 
+    padding-bottom: 3rem; 
+}
+
+.top-banner { 
+    background: linear-gradient(135deg, #f9e8ff, #e8f4ff); 
+    padding: 3rem 2rem 1rem; 
+    border-bottom: 1px solid #ead6f7; 
+}
+
+.top-banner-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top-banner h1 {
+    font-size: 2.2rem; 
+    color: #3d1f5c; 
+    margin-bottom: 1.05rem;
+}
+
+.top-banner p { 
+    font-size: 16px; 
+    color: #5a4a6a; 
+    line-height: 1.7; 
+    margin-bottom: 0.5rem; 
+}
+
+.top-banner-tags { 
+    display: flex; 
+    gap: 8px; 
+    justify-content: center;
+}
+
+
+.tag { 
+    background: white; 
+    border: 1px solid #ddd; 
+    border-radius: 20px; 
+    font-size: 12px; 
+    padding: 4px 12px; 
+    color: #454444; }
+
+nav { 
+    display: flex; 
+    gap: 10px; 
+    padding: 1.25rem 2rem; 
+    background: white; 
+    border-bottom: 1px solid #ead6f7; 
+}
+nav a { 
+    text-decoration: none; 
+    font-size: 14px; 
+    padding: 6px 16px; 
+    border-radius: 20px; 
+    color: #888; 
+}
+.inner-nav {
+    max-width: 800px;
+    margin: 0 auto
+}
+nav a.active { 
+    background: #ead6f7; 
+    color: #7a3fa0; 
+}
+nav a:hover {
+    background: #f5eeff; 
+    color: #7a3fa0; 
+}
+
+.content { 
+    padding: 2rem; 
+    max-width: 800px; 
+}
+
+.section-label { 
+    font-size: 15px; 
+    letter-spacing: 0.08em; 
+    text-transform: uppercase; color: #b07fd4; 
+    margin-bottom: 1rem; 
+}
+
+.card { 
+    background: white; 
+    border-radius: 16px; 
+    border: 1px solid #ead6f7; 
+    padding: 1.25rem; 
+    transition: border-color 0.15s, transform 0.15s; 
+}
+
+.card:hover { border-color: #c49edf;
+}
+
+.tip-box { 
+    background: linear-gradient(135deg, #fff0fb, #f0f4ff); 
+    border-radius: 14px; 
+    border: 1px solid #e0d0f5; 
+    padding: 1.25rem; 
+    margin-bottom: 2.5rem; 
+}
+
+.tip-label { 
+    font-size: 11px; 
+    color: #b07fd4; 
+    text-transform: uppercase; 
+    letter-spacing: 0.07em; 
+    margin-bottom: 6px; 
+}
+
+.tip-box p { 
+    font-size: 14px; 
+    color: #4a3a6a; 
+    line-height: 1.6; 
+}
+
+.resource-row { 
+    display: flex; 
+    gap: 10px; 
+    flex-wrap: wrap; }
+.resource { 
+    background: white; 
+    border: 1px solid #ead6f7; 
+    border-radius: 10px; 
+    padding: 8px 14px; 
+    font-size: 13px; 
+    color: #6a4a8a; 
+    text-decoration: none; 
+}
+.resource:hover { 
+    background: #f5eeff; 
+}
+
+ul { 
+    padding-left: 1.5rem; 
+    margin-top: 3px;
+    margin-bottom: 2px;
+    line-height: 30px;
+}
+
+.lessonpg {
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+
+.card {
+    margin-bottom: 10px;
+    border-radius: 16px;
+    border: 1px solid #ead6f7;
+}
+
+.card h2 {
+    color: #3d1f5c; 
+    font-size: 1.4rem;
+}
+
+li { 
+    font-size: 14px; 
+    color: #5a4a6a; 
+    line-height: 1.7; 
+    margin-bottom: 6px; 
+}
+
+.content { 
+    padding: 2rem; 
+    max-width: 800px; 
+    margin: 0 auto
+}
